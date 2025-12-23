@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <title>health fitness-hub</title>
+    <link rel="stylesheet"
+    href="style.css">
+</head>
+<body>
+<header>
+    <hi>health fitness-hub</hi>
+    <nav>
+    <a href="#">home</a>
+   < a href="#">health</a>
+   < a href="#"><fitness/a>
+    </nav>
+</header>
+<main>
+    <section>
+    <h2>welcome</h2>
+    <p>This website provides health and fitness infomation</p>
+    <button onclick="toggleinfo()">show tips</button>
+    </section>
+    <section id="info"
+    style="display: none;">
+<h3>health tips
+</h3>
+<ul>
+<li>drink enough water</li>
+<li>eat balanced meals</li>
+<li>exercise regularly</li>
+</ul></section>
+</main>
+<footer>
+    <p>&copy;2025 health fitness-hub</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
